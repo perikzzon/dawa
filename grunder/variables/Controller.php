@@ -17,7 +17,8 @@ class Controller {
     public function execute(){        
         
         $viewhelper=new ViewHelper();
-       
+        $test="H";
+        $hej="då";
         $viewhelper->assign('marke', 'Volvo');
         $viewhelper->assign('modell', 'XC90');
         $viewhelper->assign('pris',235000);
